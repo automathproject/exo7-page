@@ -18,8 +18,7 @@
 			Le projet Exo7 propose aux étudiants des cours de maths, des exercices avec corrections et des vidéos de mathématiques avec niveau L1/Math Sup, L2/Math Spé, L3/Licence.
 		</p>
 		<a href="http://www.youtube.com/Exo7Math" target="_blank" class="inline-block">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube" class="h-8 mx-auto" />
-		</a>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube" style="height: 64px;" class="h-3 mx-auto" />		</a>
 	</div>
 	
 	<!-- Section Cours par niveau -->
