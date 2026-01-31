@@ -224,6 +224,10 @@ body {
 	color: #f97316;
 }
 
+.text-gray-300 {
+	color: #d1d5db;
+}
+
 .text-gray-500 {
 	color: #6b7280;
 }
@@ -412,6 +416,104 @@ button {
 
 .max-w-none {
 	max-width: none;
+}
+
+/* Navigation */
+.nav-link {
+	color: #d1d5db;
+}
+
+.nav-link:hover {
+	color: #f97316;
+}
+
+.nav-link-active {
+	color: #f97316;
+	border-bottom: 2px solid #f97316;
+	padding-bottom: 2px;
+}
+
+.nav-separator {
+	color: #4b5563;
+	user-select: none;
+}
+
+/* Footer links */
+.footer-link {
+	color: #9ca3af;
+	transition: color 150ms;
+}
+
+.footer-link:hover {
+	color: #f97316;
+}
+
+/* Breadcrumb spacing */
+.mx-2 {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.border-b {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.border-t {
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+.border-gray-600 {
+	border-color: #4b5563;
+}
+
+.border-gray-700 {
+	border-color: #374151;
+}
+
+.my-2 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.pt-2 {
+	padding-top: 0.5rem;
+}
+
+.pt-4 {
+	padding-top: 1rem;
+}
+
+.text-xs {
+	font-size: 0.75rem;
+	line-height: 1rem;
+}
+
+.text-gray-400 {
+	color: #9ca3af;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.tracking-wide {
+	letter-spacing: 0.025em;
+}
+
+.font-medium {
+	font-weight: 500;
+}
+
+.mb-1 {
+	margin-bottom: 0.25rem;
+}
+
+@media (min-width: 768px) {
+	.md\:grid-cols-4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
 }
 
 /* SVG */
