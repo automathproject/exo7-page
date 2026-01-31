@@ -331,6 +331,10 @@ button {
 	.md\:hidden {
 		display: none;
 	}
+	
+	.md\:flex {
+		display: flex;
+	}
 }
 
 .focus\:outline-none:focus {

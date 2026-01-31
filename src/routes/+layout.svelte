@@ -23,11 +23,10 @@
 				<!-- Desktop Menu -->
 				<div class="hidden md:flex space-x-6">
 					<a href="{base}/" class="hover:text-orange-500 transition">Accueil</a>
-					<a href="{base}/cours" class="hover:text-orange-500 transition">Cours</a>
-					<a href="{base}/videos" class="hover:text-orange-500 transition">Vidéos</a>
-					<a href="{base}/qcm" class="hover:text-orange-500 transition">QCM</a>
-					<a href="{base}/activites" class="hover:text-orange-500 transition">Activités</a>
-					<a href="{base}/a-propos" class="hover:text-orange-500 transition">À propos</a>
+					<a href="{base}/premiere-annee" class="hover:text-orange-500 transition">Première année</a>
+					<a href="{base}/deuxieme-annee" class="hover:text-orange-500 transition">Deuxième année</a>
+					<a href="{base}/troisieme-annee" class="hover:text-orange-500 transition">Troisième année</a>
+					<a href="{base}/pour-les-profs" class="hover:text-orange-500 transition">Pour les profs</a>
 				</div>
 				
 				<!-- Mobile Menu Button -->
@@ -50,11 +49,10 @@
 			{#if mobileMenuOpen}
 				<div class="md:hidden mt-4 space-y-2">
 					<a href="{base}/" class="block py-2 hover:text-orange-500 transition">Accueil</a>
-					<a href="{base}/cours" class="block py-2 hover:text-orange-500 transition">Cours</a>
-					<a href="{base}/videos" class="block py-2 hover:text-orange-500 transition">Vidéos</a>
-					<a href="{base}/qcm" class="block py-2 hover:text-orange-500 transition">QCM</a>
-					<a href="{base}/activites" class="block py-2 hover:text-orange-500 transition">Activités</a>
-					<a href="{base}/a-propos" class="block py-2 hover:text-orange-500 transition">À propos</a>
+					<a href="{base}/premiere-annee" class="block py-2 hover:text-orange-500 transition">Première année</a>
+					<a href="{base}/deuxieme-annee" class="block py-2 hover:text-orange-500 transition">Deuxième année</a>
+					<a href="{base}/troisieme-annee" class="block py-2 hover:text-orange-500 transition">Troisième année</a>
+					<a href="{base}/pour-les-profs" class="block py-2 hover:text-orange-500 transition">Pour les profs</a>
 				</div>
 			{/if}
 		</nav>
